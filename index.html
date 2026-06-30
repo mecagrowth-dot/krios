@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<!-- saved from url=(0077)file:///C:/Users/Bruno%20Gomes/Downloads/KRIOS_Guia_EXCLUSIVO_Completo_3.html -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KRIOS Creative Studio — Guia Completo 2026</title>
+<style>
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --k-black:#0A0A0A;
+  --k-dark:#111111;
+  --k-card:#181818;
+  --k-border:#252525;
+  --k-border2:#2e2e2e;
+  --k-white:#FFFFFF;
+  --k-off:#E8E8E0;
+  --k-muted:#888888;
+  --k-muted2:#555555;
+  --k-red:#E63946;
+  --k-red-l:#2a0a0c;
+  --k-red-m:#5c1a1f;
+  --k-red-a:rgba(230,57,70,.12);
+  --k-red-b:rgba(230,57,70,.06);
+  --k-accent:#F4E04D;
+  --k-accent-d:#c2b03c;
+  --k-accent-l:rgba(244,224,77,.1);
+  --k-green:#2ECC71;
+  --r:6px;--r2:12px;--r3:20px;
+}
+html{scroll-behavior:smooth}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--k-black);color:var(--k-off);font-size:14px;line-height:1.6}
+@media print{.sidebar,.back-top{display:none!important}.main{margin-left:0!important}}
+
+/* ── LAYOUT ── */
+.wrap{display:flex;min-height:100vh}
+.sidebar{width:240px;flex-shrink:0;background:var(--k-dark);position:fixed;top:0;left:0;bottom:0;overflow-y:auto;display:flex;flex-direction:column;border-right:1px solid var(--k-border);z-index:100}
+.main{margin-left:240px;flex:1;min-width:0}
+
+/* ── SIDEBAR ── */
+.sb-logo{padding:24px 20px 18px;border-bottom:1px solid var(--k-border)}
+.sb-logo .kname{font-size:1.3rem;font-weight:900;color:var(--k-white);letter-spacing:2px}
+.sb-logo .ksub{font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--k-muted);margin-top:2px}
+.sb-logo .ktag{display:inline-block;margin-top:10px;font-size:9px;background:var(--k-red-a);color:var(--k-red);border:1px solid var(--k-red-m);padding:3px 8px;border-radius:99px;letter-spacing:1px;text-transform:uppercase}
+.sb-section{padding:16px 16px 4px;font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:var(--k-muted2);font-weight:700}
+.sidebar a{display:flex;align-items:center;gap:9px;padding:8px 20px;font-size:12px;color:var(--k-muted);text-decoration:none;border-left:2px solid transparent;transition:all .15s}
+.sidebar a:hover,.sidebar a.active{color:var(--k-white);border-left-color:var(--k-red);background:rgba(255,255,255,.03)}
+.sidebar a .icon{font-size:13px;flex-shrink:0}
+.sb-footer{margin-top:auto;padding:16px 20px;border-top:1px solid var(--k-border);font-size:10px;color:var(--k-muted2)}
+
+/* ── HERO ── */
+.hero{background:var(--k-dark);padding:60px 56px 52px;border-bottom:1px solid var(--k-border);position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--k-red),transparent)}
+.hero::after{content:'KRIOS';position:absolute;right:-20px;top:50%;transform:translateY(-50%);font-size:18rem;font-weight:900;color:rgba(255,255,255,.015);letter-spacing:-10px;pointer-events:none;line-height:1}
+.hero-eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--k-red);margin-bottom:20px}
+.hero-eyebrow .dot{width:6px;height:6px;border-radius:50%;background:var(--k-red);flex-shrink:0}
+.hero h1{font-size:clamp(2rem,4vw,3.2rem);font-weight:900;color:var(--k-white);line-height:1.05;max-width:680px;letter-spacing:-1px}
+.hero h1 em{font-style:normal;color:var(--k-red)}
+.hero-sub{margin-top:16px;font-size:14px;color:var(--k-muted);max-width:540px;line-height:1.7}
+.hero-pills{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
+.hero-pill{display:flex;align-items:center;gap:6px;font-size:11px;color:var(--k-muted);border:1px solid var(--k-border2);padding:5px 12px;border-radius:99px}
+.hero-pill .dot{width:6px;height:6px;border-radius:50%;background:var(--k-red);flex-shrink:0}
+
+/* ── PART HEADER ── */
+.part-header{background:var(--k-dark);padding:40px 56px 34px;border-bottom:1px solid var(--k-border);position:relative}
+.part-header::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,var(--k-red),transparent)}
+.part-header .pt{font-size:9px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--k-red);margin-bottom:10px}
+.part-header h2{font-size:1.7rem;font-weight:900;color:var(--k-white);line-height:1.15;letter-spacing:-.5px}
+.part-header p{margin-top:10px;font-size:13px;color:var(--k-muted);max-width:580px;line-height:1.65}
+
+/* ── PAGE BODY ── */
+.page-body{max-width:840px;margin:0 auto;padding:44px 48px 80px}
+
+/* ── FOOTER ── */
+.footer-band{background:var(--k-dark);padding:40px 56px;border-top:1px solid var(--k-border);text-align:center;position:relative}
+.footer-band::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,var(--k-red),transparent)}
+.footer-band .f-logo{font-size:2.2rem;font-weight:900;color:var(--k-white);letter-spacing:3px;margin-bottom:8px}
+.footer-band .f-logo em{color:var(--k-red);font-style:normal}
+.footer-band .f-tag{font-size:11px;color:var(--k-red);margin-bottom:4px}
+.footer-band .f-sub{font-size:10px;color:var(--k-muted2);margin-top:4px;letter-spacing:1px}
+
+/* ── BACK TOP ── */
+.back-top{position:fixed;bottom:24px;right:24px;background:var(--k-red);color:var(--k-white);width:40px;height:40px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1rem;text-decoration:none;z-index:200;font-weight:900;transition:transform .18s;box-shadow:0 4px 16px rgba(230,57,70,.35)}
+.back-top:hover{transform:translateY(-3px)}
+
+@media(max-width:768px){
+  .sidebar{transform:translateX(-100%)}.main{margin-left:0}
+  .hero,.part-header{padding:36px 20px 30px}
+  .page-body{padding:28px 18px 56px}
+  .footer-band{padding:28px 20px}
+}
+
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<aside class="sidebar">
+  <div class="sb-logo">
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+      <div>
+        <div class="kname">KRIOS</div>
+        <div class="ksub">Creative Studio</div>
+      </div>
+    </div>
+    <div class="ktag">Guia Completo · 2026</div>
+  </div>
+
+  <div class="sb-section">Esteira de Produtos</div>
+  <nav>
+    <a href="#s-intro"><span class="icon">🧭</span> Visão da Esteira</a>
+    <a href="#n0"><span class="icon">⚡</span> Nível 0 — Design Freelance</a>
+    <a href="#n1"><span class="icon">🔑</span> Nível 1 — Entrada Estratégica</a>
+    <a href="#n2"><span class="icon">🏆</span> Nível 2 — Autoridade</a>
+    <a href="#n3"><span class="icon">🚀</span> Nível 3 — Transformação</a>
+  </nav>
+
+  <div class="sb-footer">krioscreative.com · 2026</div>
+</aside>
+
+<main class="main">
+
+<div class="hero">
+  <div style="display:flex;align-items:center;gap:14px;margin-bottom:20px">
+    <div class="hero-eyebrow" style="margin-bottom:0"><span class="dot"></span> Krios Creative Studio — Guia Completo 2026</div>
+  </div>
+  <h1>Tudo que a Krios<br>tem para <em>operar, vender</em><br>e <em>posicionar</em></h1>
+  <p class="hero-sub">Esteira de produtos, Metodologia Clarity, Scripts de prospecção para 10 nichos, Inteligência Comercial, Operação SDR, Inteligência B2B e Copilot Comercial.</p>
+  <div class="hero-pills">
+    <div class="hero-pill"><span class="dot"></span> 4 Níveis de Produto (N0 → N3)</div>
+    <div class="hero-pill"><span class="dot"></span> Metodologia Clarity · 6 Fases</div>
+    <div class="hero-pill"><span class="dot"></span> Scripts · 10 Nichos · 45 Objeções</div>
+    <div class="hero-pill"><span class="dot"></span> Pipeline 13 Etapas · KPIs</div>
+  </div>
+</div>
+
+<div class="part-header">
+  <div class="pt">Parte 1 de 4</div>
+  <h2>Guia Comercial — Esteira de Produtos</h2>
+  <p>A Krios não vende serviços avulsos. Vende uma jornada de crescimento de marca. Cada nível é porta de entrada para o próximo.</p>
+</div>
+
+<div class="page-body">
+  <div id="s-intro">
+    <h2>Visão da Esteira</h2>
+    <p>O cliente entra pelo produto mais fácil de justificar, percebe o valor e naturalmente avança para tickets maiores. Cada nível é porta de entrada para o próximo.</p>
+  </div>
+
+  <div id="n0" style="margin-top:48px">
+    <h2>Nível 0 — Design Freelance</h2>
+    <p>Caixa rápido · Porta de contato · SDR fecha sozinho via WhatsApp</p>
+    <p style="margin-top:16px"><strong>Valor:</strong> R$70–R$600 | <strong>Ciclo:</strong> 1–3 dias</p>
+  </div>
+
+  <div id="n1" style="margin-top:48px">
+    <h2>Nível 1 — Entrada Estratégica</h2>
+    <p>Abrir relacionamento · Gerar percepção inicial · Primeira conversão do lead</p>
+    <p style="margin-top:16px"><strong>Valor:</strong> R$300–R$2.000 | <strong>Ciclo:</strong> 3–7 dias</p>
+  </div>
+
+  <div id="n2" style="margin-top:48px">
+    <h2>Nível 2 — Autoridade</h2>
+    <p>Profissionalizar presença · Maior volume de fechamento · Rafael conduz reuniões</p>
+    <p style="margin-top:16px"><strong>Valor:</strong> R$3.000–R$15.000 | <strong>Ciclo:</strong> 21–45 dias</p>
+  </div>
+
+  <div id="n3" style="margin-top:48px">
+    <h2>Nível 3 — Transformação</h2>
+    <p>Reposicionamento completo · Pipeline construído pelos Níveis 1 e 2 · Não se fecha Nível 3 "frio"</p>
+    <p style="margin-top:16px"><strong>Valor:</strong> R$20.000+ | <strong>Ciclo:</strong> 60–120 dias</p>
+  </div>
+</div>
+
+<div class="footer-band">
+  <div class="f-logo">KRIOS <em>Creative Studio</em></div>
+  <div class="f-tag">Guia Completo 2026</div>
+  <div class="f-sub">krioscreative.com</div>
+</div>
+
+</main>
+
+</div>
+
+<a href="#" class="back-top" onclick="window.scrollTo(0, 0); return false;">↑</a>
+
+</body>
+</html>
